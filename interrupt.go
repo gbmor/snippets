@@ -1,3 +1,11 @@
+package interrupt
+
+import (
+	"log"
+	"os"
+	"os/signal"
+	"time"
+)
 
 // Watch for SIGINT aka ^C
 // Close the log file then exit
